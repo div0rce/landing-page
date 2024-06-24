@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	font-family: "Roboto";
+	outline: 2px solid red;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* .main {
+	display: flex;
+	flex-direction: column;
+} */
+
+/* .header {
+	background-color: #1f2937;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+} */
+
+a {
+	text-decoration: none;
+	display: flex;
+	color: #efe7eb;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	gap: 20px;
+}
+
+.logo {
+	margin-left: 128px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #f9faf8;
+}
+
+.header-links {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 128px;
+}
+
+.header {
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1f2937;
+}
+
+.left-welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 470px;
+}
+
+.right-welcome {
+	width: 470px;
+}
+
+img {
+	width: 470px;
+	height: max-content;
+}
+
+.welcome {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1f2937;
+	padding-left: 128px;
+	padding-right: 128px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.title {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.subtext {
+	font-size: 18px;
+	color: #efe7eb;
+}
+
+.sign-up-button {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(78, 128, 238);
+	color: white;
+}
